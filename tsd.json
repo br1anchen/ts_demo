@@ -1,0 +1,47 @@
+{
+  "path": "typings",
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "bootstrap/bootstrap.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "angular-ui/angular-ui-router.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "angularjs/angular-scenario.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "angularjs/angular-cookies.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "angularjs/angular-sanitize.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "angularjs/angular-route.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "jasmine-jquery/jasmine-jquery.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "a3a62125fff3057e8901c0cf4b4f9499255bfca1"
+    }
+  }
+}
