@@ -142,8 +142,22 @@ module.exports = function (grunt) {
     // Automatically inject Bower components into the app
     'bower-install': {
       app: {
-        html: '<%= yeoman.app %>/index.html',
+        src: '<%= yeoman.app %>/index.html',
         ignorePath: '<%= yeoman.app %>/'
+      },
+      test: {
+        src: 'karma.conf.js',
+        fileTypes: {
+            js: {
+                block: /(([\s\t]*)\/\/\s*bower:*(\S*))(\n|\r|.)*?(\/\/\s*endbower)/gi,
+                detect: {
+                    js: /'.*\.js'/gi
+                },
+                replace: {
+                    js: '\'{{filePath}}\','
+                }
+            }
+        }
       }
     },
 

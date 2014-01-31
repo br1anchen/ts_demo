@@ -11,18 +11,24 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      // bower:js
       'app/bower_components/jquery/jquery.js',
-      //'app/bower_components/jasmine-jquery/lib/jasmine-jquery.js',  //TypeError: 'undefined' is not a function (evaluating 'jasmine.addMatchers')
+      'app/bower_components/es5-shim/es5-shim.js',
       'app/bower_components/angular/angular.js',
-      'app/bower_components/angular-mocks/angular-mocks.js',
+      'app/bower_components/json3/lib/json3.min.js',
+      'app/bower_components/sass-bootstrap/dist/js/bootstrap.js',
       'app/bower_components/angular-resource/angular-resource.js',
       'app/bower_components/angular-cookies/angular-cookies.js',
-      'app/bower_components/angular-bootstrap/ui-bootstrap.js',
+      'app/bower_components/angular-sanitize/angular-sanitize.js',
       'app/bower_components/angular-route/angular-route.js',
-      'app/bower_components/angular-ui/build/angular-ui.js',
+      'app/bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'app/bower_components/angular-ui-router/release/angular-ui-router.js',
+      'app/bower_components/x2js/xml2json.min.js',
+      // endbower
+
+      'app/bower_components/jasmine-jquery/lib/jasmine-jquery.js',
       'app/bower_components/node-uuid/uuid.js',
-      'app/bower_components/x2js/xml2json.js',
+      'app/bower_components/angular-mocks/angular-mocks.js',
 
       'app/scripts/config/App_Constants.js',
       'app/scripts/*.js',
